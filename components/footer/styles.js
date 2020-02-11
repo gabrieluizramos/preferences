@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { spacing, font, colors } from '../../variables';
+import { spacing, font } from '../../variables';
 
 export const Footer = styled.header`
   margin: 0 auto;
