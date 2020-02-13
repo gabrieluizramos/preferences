@@ -1,12 +1,14 @@
 import React from 'react';
 
+import Link from '../link';
+
 import * as S from './styles';
 
 const Footer = () => (
   <S.Footer>
-    <a href="https://gabrieluizramos.com.br/">
+    <Link href="https://gabrieluizramos.com.br/">
       @gabrieluizramos
-    </a>
+    </Link>
   </S.Footer>
 );
 
