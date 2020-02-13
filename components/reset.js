@@ -22,6 +22,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     z-index: 0;
     font-family: 'Fira Code', monospace, arial;
+    font-variant-ligatures: none;
     outline: none;
   }
 
