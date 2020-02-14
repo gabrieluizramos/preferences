@@ -7,7 +7,7 @@ const targetExtraProps = {
 };
 
 const Link = ({ href, target, children }) => (
-    <a href={href} {...targetExtraProps[target]}>{children}</a>
+    <a href={href} target={target} {...targetExtraProps[target]}>{children}</a>
 );
 
 export default Link;
