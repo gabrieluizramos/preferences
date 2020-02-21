@@ -5,6 +5,6 @@ import { spacing, font } from '../../variables';
 export const Footer = styled.footer`
   margin: 0 auto;
   text-align: center;
-  padding: ${spacing.triple} 0;
+  padding: ${spacing.default} 0 ${spacing.triple};
   font-size: ${font.size.small};
 `;

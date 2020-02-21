@@ -5,7 +5,7 @@ import { spacing, font } from '../../variables';
 export const Header = styled.header`
   margin: 0 auto;
   text-align: center;
-  padding: ${spacing.triple} 0;
+  padding: ${spacing.triple} 0 ${spacing.default};
 `;
 
 export const Title = styled.h1`
