@@ -8,7 +8,7 @@ const Header = () => (
       Gabriel / Ramos
     </S.Title>
     <S.Subtitle>
-      ⟨ desenvolvedor web ⟩
+      ⟨ pintor de pixel ⟩
     </S.Subtitle>
   </S.Header>
 );
