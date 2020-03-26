@@ -9,6 +9,7 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "*",
-    "styled-components": "*"
+    "styled-components": "*",
+    "gatsby": "*"
   }
 }
