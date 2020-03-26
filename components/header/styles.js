@@ -8,7 +8,7 @@ export const Header = styled.header`
   padding: ${spacing.triple} 0 ${spacing.default};
 
   a {
-    color: ${colors.white;}
+    color: ${colors.white};
   }
 `;
 
