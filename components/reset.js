@@ -34,7 +34,7 @@ export default createGlobalStyle`
     display: block;
     width: 100%;
     height: 2px;
-    background: linear-gradient(to right, transparent 25%, ${colors.terminal.black} 25%, ${colors.terminal.black} 75%, transparent 75%);
+    background: linear-gradient(to right, ${colors.terminal.black} 25%,  transparent 25%, transparent 75%, ${colors.terminal.black} 75%);
     background-size: ${spacing.default};
     margin: ${spacing.double} 0;
   }
