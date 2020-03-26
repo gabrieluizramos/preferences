@@ -1,6 +1,6 @@
 export default {
   white: '#FFF',
-  black: '#1f1f1f',
+  black: '#000',
   terminal: {
     blue: {
       default: '#006cad',
@@ -9,6 +9,6 @@ export default {
     purple: '#696ac6',
     green: '#4fb06e',
     yellow: '#f8ab03',
-    black: '#000000'
+    black: '#1f1e1e'
   }
 }
