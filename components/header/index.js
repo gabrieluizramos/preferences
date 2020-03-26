@@ -4,12 +4,14 @@ import * as S from './styles';
 
 const Header = () => (
   <S.Header>
-    <S.Title>
-      Gabriel / Ramos
-    </S.Title>
-    <S.Subtitle>
-      ⟨ pintor de pixel ⟩
-    </S.Subtitle>
+    <a href="/">
+      <S.Title>
+        Gabriel / Ramos
+      </S.Title>
+      <S.Subtitle>
+        ⟨ pintor de pixel ⟩
+      </S.Subtitle>
+    </a>
   </S.Header>
 );
 

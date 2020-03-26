@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
-import { spacing, font } from '../../variables';
+import { spacing, font, colors } from '../../variables';
 
 export const Header = styled.header`
   margin: 0 auto;
   text-align: center;
   padding: ${spacing.triple} 0 ${spacing.default};
+
+  a {
+    color: ${colors.white;}
+  }
 `;
 
 export const Title = styled.h1`
