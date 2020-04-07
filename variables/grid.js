@@ -1,3 +1,3 @@
 export default {
-  size: '1200px',
+  size: '1000px',
 }
