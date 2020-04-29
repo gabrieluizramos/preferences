@@ -8,6 +8,7 @@ export const Button = styled.button`
   font-size: ${font.size.default};
   transition: .2s ease-in-out;
   border: 2px solid ${colors.white};
+  background: ${colors.white};
 
   &:not([disabled]) {
     &:hover {
@@ -19,5 +20,6 @@ export const Button = styled.button`
   &[disabled] {
     cursor: initial;
     background: ${colors.post.color};
+    border-color: ${colors.post.color};
   }
 `;
